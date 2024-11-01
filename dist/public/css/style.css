@@ -1,0 +1,21 @@
+/* body {
+  background: red;
+} */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-item: center;
+  background: gray;
+
+  nav {
+    ul {
+      display: flex;
+      gap: 1rem;
+
+      li {
+        list-style-type: none;
+      }
+    }
+  }
+}
